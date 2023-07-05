@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(rgb(209, 90, 90),rgb(244, 250, 254),rgb(200, 136, 136));
+    height: 100vh;
+    }
+
+    .quotecontainer{
+        background-color: #000;
+        color: #fff;
+        text-align: center; 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 80%;
+    }
+
+    #btn{
+        background-color: rgb(209, 90, 90);
+        border-color: white;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 8px 12px;
+        margin-top: 8px;
+        outline: none;
+    }
+
+    #btn:hover{
+        background-color: #fff;
+        border-color:rgb(209, 90, 90);
+    }
+
+    #author{
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        color:rgb(209, 90, 90) ;
+    }
